@@ -89,10 +89,12 @@ img {
   margin-top: 2rem;
   font-weight: 800;
   letter-spacing: 0.01em;
+  position: relative;
 }
 
 .card__content {
   margin-top: -1rem;
+  position: relative;
 }
 
 .card__svg {
@@ -120,5 +122,29 @@ a[href^="tel:"] {
   }
 }
 
-@media only screen and (min-width: 900px) {
+@media only screen and (max-width: 400px), (max-height: 590px) {
+  nav {
+    width: 45vh;
+  }
+  .card {
+    width: 40vh;
+    height: 60vh;
+  }
+  .card__image-container {
+    margin: -2rem -2rem 1rem -2rem;
+  }
+
+  .card__title {
+    font-size: medium;
+    position: relative;
+  }
+
+  .card__content {
+    position: relative;
+    font-size: small;
+  }
+
+  .card__svg {
+    top: 80px;
+  }
 }
