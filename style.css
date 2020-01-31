@@ -1,0 +1,124 @@
+* {
+  box-sizing: border-box;
+  line-height: 1.5;
+  font-family: "Open Sans", sans-serif;
+}
+body {
+  margin: 0;
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  background-repeat: no-repeat;
+  animation: gradient 10s ease infinite;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+}
+nav {
+  display: flex;
+  width: 55vh;
+  position: fixed;
+  background-color: #333;
+  border-radius: 6px;
+  justify-content: space-evenly;
+  z-index: 1;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+li {
+  list-style-type: none;
+  margin: 0 5vw;
+  font-size: 2.5vh;
+  text-align: ;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  padding: 2vw;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 95vh;
+}
+.secondary-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 10vh;
+}
+.card {
+  position: relative;
+  background: #333;
+  width: 50vh;
+  height: 75vh;
+  border-radius: 6px;
+  padding: 20px;
+  color: #aaa;
+  overflow: hidden;
+}
+.secondary-card {
+  position: relative;
+  background: #333;
+  width: 50vh;
+  height: 45vh;
+  border-radius: 6px;
+  color: #aaa;
+  overflow: hidden;
+}
+.card__image-container {
+  margin: -2rem -2rem 1rem -2rem;
+}
+
+.card__title {
+  color: white;
+  margin-top: 2rem;
+  font-weight: 800;
+  letter-spacing: 0.01em;
+}
+
+.card__content {
+  margin-top: -1rem;
+}
+
+.card__svg {
+  position: absolute;
+  left: 0;
+  top: 130px;
+}
+
+a[href^="tel:"]::before,
+a[href^="tel:"] {
+  content: "\260e";
+  margin-right: 0.5em;
+  color: tomato;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+}
