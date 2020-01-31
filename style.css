@@ -100,7 +100,7 @@ img {
 .card__svg {
   position: absolute;
   left: 0;
-  top: 130px;
+  top: 110px;
 }
 
 a[href^="tel:"]::before,
@@ -124,11 +124,11 @@ a[href^="tel:"] {
 
 @media only screen and (max-width: 440px), (max-height: 590px) {
   nav {
-    width: 45vh;
+    width: 38vh;
   }
   .card {
-    width: 40vh;
-    height: 60vh;
+    width: 35vh;
+    height: 50vh;
   }
   .card__image-container {
     margin: -2rem -2rem 1rem -2rem;
@@ -145,6 +145,6 @@ a[href^="tel:"] {
   }
 
   .card__svg {
-    top: 80px;
+    top: 70px;
   }
 }
