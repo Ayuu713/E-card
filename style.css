@@ -52,20 +52,15 @@ img {
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
-  height: 95vh;
-}
-.secondary-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-evenly;
-  height: 10vh;
+  height: 145vh;
+  position: relative;
+  top:60px;
 }
 .card {
   position: relative;
   background: #333;
   width: 50vh;
-  height: 75vh;
+  height: 115vh;
   border-radius: 6px;
   padding: 20px;
   color: #aaa;
@@ -78,7 +73,18 @@ img {
   height: 45vh;
   border-radius: 6px;
   color: #aaa;
-  overflow: hidden;
+  position: relative;
+  top: 10px;
+}
+.third-card{
+  position: relative;
+  background: #333;
+  width: 50vh;
+  height: 45vh;
+  border-radius: 6px;
+  color: #aaa;
+  position: relative;
+  top: 20px;
 }
 .card__image-container {
   margin: -2rem -2rem 1rem -2rem;
